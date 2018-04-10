@@ -67,13 +67,17 @@
   text-align: center;
 }
 
-.demo-list-icon, .jihyo-icon, .nayeon-icon, .jeongyeon-icon, .momo-icon, .sana-icon, .mina-icon, .dahyun-icon, .chaeyoung-icon, .tzuyu-icon {
+.demo-list-icon, .jihyo-icon, .nayeon-icon, .jeongyeon-icon, .momo-icon, .sana-icon, .mina-icon, .dahyun-icon, .chaeyoung-icon, .tzuyu-icon, .bullet-icon {
   background: #ccc;
   display: block;
   position: relative;
 }
 .theme-dark .demo-list-icon {
   background-color: #555;
+}
+.bullet-icon {
+  background: url(../img/bullet.png) no-repeat center;
+  background-size: cover;
 }
 .jihyo-icon {
   background: url(../img/jihyo.jpg) no-repeat center;
@@ -116,13 +120,13 @@
   background-size: cover;
 }
 
-.ios .demo-list-icon, .ios .jihyo-icon, .nayeon-icon, .jeongyeon-icon, .momo-icon, .sana-icon, .mina-icon, .dahyun-icon, .chaeyoung-icon, .tzuyu-icon, .ios .icon-vi {
+.ios .demo-list-icon, .ios .jihyo-icon, .nayeon-icon, .jeongyeon-icon, .momo-icon, .sana-icon, .mina-icon, .dahyun-icon, .chaeyoung-icon, .tzuyu-icon, .bullet-icon, .ios .icon-vi {
   width: 29px;
   height: 29px;
   border-radius: 6px;
   box-sizing: border-box;
 }
-.md .demo-list-icon, .md .jihyo-icon, .nayeon-icon, .jeongyeon-icon, .momo-icon, .sana-icon, .mina-icon, .dahyun-icon, .chaeyoung-icon, .tzuyu-icon, .md .icon-vi {
+.md .demo-list-icon, .md .jihyo-icon, .nayeon-icon, .jeongyeon-icon, .momo-icon, .sana-icon, .mina-icon, .dahyun-icon, .chaeyoung-icon, .tzuyu-icon, .bullet-icon, .md .icon-vi {
   width: 24px;
   height: 24px;
   border-radius: 4px;
